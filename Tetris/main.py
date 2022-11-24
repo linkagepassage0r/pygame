@@ -45,7 +45,7 @@ def main():
     speed = orispeed    # 当前速度
     pause = False       # 暂停
     last_drop_time = None   # 上次下落时间
-    last_press_time = None  # 上次按键时间
+    last_press_time = None  # 上次按键时间问题
 
     def _dock():
         nonlocal cur_block, next_block, game_area, cur_pos_x, cur_pos_y, game_over, score, speed
